@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with Love❤️",
+        name: "Made with Love❤️ by ZM ",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 2, 
       },
     ],
   },
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Nexus Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -303,7 +303,7 @@ export const botConfig = {
       defaultCriteria: "none",
 
       // Days used when `defaultCriteria` is `account_age`.
-      defaultAccountAgeDays: 7,
+      defaultAccountAgeDays: 10,
 
       // Member count threshold used when `defaultCriteria` is `server_size`.
       // Example: 1000 means auto-verify if server has fewer than 1000 members.
